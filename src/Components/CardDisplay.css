@@ -1,0 +1,11 @@
+.hover-scrollbar-hidden {
+    overflow-x: hidden;
+  }
+  
+  .hover-scrollbar-hidden:hover {
+    overflow-x: auto;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
