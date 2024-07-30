@@ -14,5 +14,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        ".btn": {
+          "@apply bg-white text-customPurple border rounded-md border-customPurple px-4 py-2 font-text font-bold flex items-center space-x-2 hover:bg-customPurple hover:text-white transition duration-300":
+            {},
+        },
+      });
+    },
+  ],
 };
