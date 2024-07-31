@@ -2,18 +2,15 @@
 const skillList = [
     // skills can be added or removed
     // if there are no skills, Skills section won't show up
-    'HTML',
-    'CSS',
+    
+    'Pyhton',
+    'C',
+    'Java',
     'JavaScript',
-    'TypeScript',
     'React',
-    'Redux',
-    'SASS',
-    'Material UI',
-    'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
+    'CSS',
+    'SQL',
+    'JestJS',
   ]
 
 const Skills = () => {

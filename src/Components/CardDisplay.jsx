@@ -6,37 +6,47 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Online Care Plan',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'An online management platform made to simplify logistics for elderly Home Care services.',
+    stack: ['JavaScript','React','Mongoose','Jest.js'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Hackitects',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Humanitarian solution for CISSA codebrew 2024. A smart meal planner that aims to reduce food wastage.',
+    stack: ['JavaScript','React','Mongoose',],
+    sourceCode: 'https://github.com/KahMeng2/hackitects',
+    livePreview: 'https://github.com/KahMeng2/hackitects',
   },
   {
-    name: 'Project 3',
+    name: 'AI Pacman CTF',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An AI agent built using Monte Carlo Tree Search and Q-Learning for a capture the flag Pacman game.',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/COMP90054-2023s2/a3-team_sheeesshhh/wiki',
+    livePreview: 'https://github.com/COMP90054-2023s2/a3-team_sheeesshhh/wiki',
   },
   {
-    name: 'Project 3',
+    name: 'Portfolio',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'The website you are currently viewing. It is designed and developed from scratch using React and Tailwind CSS',
+    stack: ['JavaScript', 'React','TailwindCSS'],
+    sourceCode: 'https://github.com/KahMeng2/Portfolio',
+    livePreview: 'https://kahmeng-portfolio.netlify.app/',
+  },
+  {
+    name: 'Budget Tracker',
+    description:
+      'A budget tracking application that tracks monthly transactions and highlighting dominant transaction types',
+    stack: ['JavaScript', 'React','Mongoose'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
+  
+  
 
   
 ]

@@ -3,14 +3,14 @@ import LaunchIcon from '@mui/icons-material/Launch';
 
 const ProjectContainer = ({project}) => {
   return (
-    <div className="min-w-[20rem] max-w-[20rem] text-center drop-shadow-xl border p-4 px-4 m-12 mb-20 bg-white rounded-3xl
+    <div className="min-w-[22rem] max-w-[22rem] text-center drop-shadow-xl border p-4 px-4 m-8 mb-20 bg-white rounded-3xl
                     transition-transform transform hover:scale-105 hover:shadow-l" 
                     style={{background:"#EBEBF4"}}>
         {/*Continue from here */}
-        <h3 className='text-3xl font-bold font-text pt-3'>{project.name}</h3>
-        <p className='text-gray-700 mb-4 max-w-sm font-text text-xl p-4'>{project.description}</p>
+        <h3 className='text-2xl font-bold font-text pt-3'>{project.name}</h3>
+        <p className='text-gray-700 mb-4 max-w-sm font-text text-lg p-4'>{project.description}</p>
         {project.stack && (
-        <ul className='flex justify-center space-x-4 pb-5'>
+        <ul className='flex flex-wrap justify-center space-x-4 pb-5'>
             {project.stack.map((item) => (
               <li key={project.name} className='font-bold font-text'>
                 {item}
